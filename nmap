@@ -1,0 +1,12 @@
+To check wether nmap is installed or not -- 
+>> nmap -h    (h stands for help , you will get help interface ).. apply for every command
+>> nmap -sP    ( how many hosts are active )
+>> sudo nmap -sT -p 80,443  <ip/web>      -- performing tcp connection with a web or ip (3 wat handshake ) on particular port only
+
+>> stealthy ---  means dont establish full connection ,you hide yourself , only 2 way connection esatblished , 2 way handshake happend and not tcp coonection is formed
+sudo nmap -sS -p 80,443  <ip/web>  ( It is stealthy mode)
+
+sudo nmap -sT <ip>    --- for port checking
+sudo namp -p- <ip adress>    - for port checking
+sudo namp -O <ip adress>    -- TO FIND OPERATING SYSTEM OF TARGEST
+sudo nmap -A <IP adress>  --  os dedection , version dedction , tracerout
