@@ -1,3 +1,5 @@
 ifconfig        --- to check active port
-sudo ifconfig eth0 down    ---- to given port
+sudo ifconfig eth0 down    ---- to given port to down
 sudo macchanger -r eth0    --- to get random mac      ///macchanger should be installed
+sudo ifconfig wlan0 up --- to up again to connect
+macchanger -s eth0 ==== now to check for new mac
